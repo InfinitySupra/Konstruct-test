@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600;700&display=swap");
+body {
+  max-width: 1440px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(../images/header.jpg) center no-repeat;
+  background-size: auto;
+  height: 769px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 1438px;
+      flex-basis: 1438px;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__top {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 23px;
+  margin-top: 40px;
+}
+
+.header__medium-top {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 317px;
+}
+
+.header__medium-top h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 58.31px;
+  letter-spacing: 3.90937px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.header__medium-bottom {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__medium-bottom p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.header__bottom {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 221px;
+}
+
+.header__bottom li {
+  list-style-type: none;
+}
+
+.header__bottom li a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14.98px;
+  color: #FFFFFF;
+  margin: 0;
+  letter-spacing: 3.7px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.header__bottom li a:hover {
+  color: #ffffff7c;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 1440px;
+      flex-basis: 1440px;
+  height: 65px;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav__logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__logo button {
+  background: url(../images/logo2.svg) center no-repeat;
+  border: none;
+  width: 79.53px;
+  height: 18px;
+}
+
+.nav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 410.5px;
+}
+
+.nav nav li {
+  list-style-type: none;
+}
+
+.nav nav li a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: 1.09091px;
+  color: #48555B;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.nav nav li a:hover {
+  color: #00A4E5;
+}
+/*# sourceMappingURL=style.css.map */
