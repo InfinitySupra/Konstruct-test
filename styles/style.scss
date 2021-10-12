@@ -505,7 +505,7 @@ body {
 .footer__item5 {
     width: 141px;
 }
-.footer__text2 p {
+.footer__text2 p, .footer__text2 a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 11px;
@@ -513,7 +513,9 @@ body {
     letter-spacing: .85px;
     color: #FFFFFF;
     margin-top: 18px;
+    text-decoration: none;
 }
+
 .footer__item6 {
     padding-top: 72px;
     width: 86.45px;
